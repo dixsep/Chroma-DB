@@ -175,3 +175,19 @@ result = collection.query(
 print(result['documents'])
 
 
+'''
+UPDATE :
+c.update(
+  ids = ["id1"],
+  metadatas = [{}],
+  document = [str1, str2]
+)
+
+DELETE
+
+deletes docs with id : id1, id2
+c.delete(
+ids = [id1, id2]
+)
+'''
+
